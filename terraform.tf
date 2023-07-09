@@ -2,8 +2,8 @@
 # SPDX-License-Identifier: MPL-2.0
 
 terraform {
-
   cloud {
+    organization = "trevornagaba"
     workspaces {
       name = "learn-terraform-lambda-api-gateway"
     }
